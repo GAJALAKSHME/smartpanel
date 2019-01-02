@@ -1,0 +1,311 @@
+.header{
+			background-color:white;
+			height: 130px;
+			width: 1390px;
+		}
+		.logo{
+			margin-top:15px;
+            margin-left: -50 px;
+           
+		}
+		.header-about{
+			font-weight: bold;
+			margin-top: 53px;
+			font-size: 18px;
+			margin-left: 20px;
+
+		}
+		.header-about:hover{
+            background-color:white;
+            color: #00CDCB;
+        }
+        .header-FAQ{
+        	font-weight: bold;
+			margin-top: 53px;
+			font-size: 18px;
+        	margin-left: -25px;
+        }
+        .header-FAQ:hover{
+        	background-color:white;
+        	color: #00CDCB;
+        }
+        .header-blog{
+        	font-weight: bold;
+        	margin-top: 53px;
+        	font-size: 18px;
+        	margin-left: -45px;
+        }
+        .header-blog:hover{
+        	background-color: white;
+        	color:skyblue;
+        }
+        .login-button{
+        	
+        	margin-top:45px;
+        	margin-left: -45px;
+        	 background-image: linear-gradient(to right, #00CDCB, #12D7C1);
+            color: #ffffff;
+            box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+            font-size: 18px;
+            border-radius: 20px;
+            min-height: 40px;
+            min-width: 60px;
+            padding: 8px 24px;
+            line-height: 22px;
+            border: 1px solid transparent;
+            position: relative;
+            display: inline-flex;
+            will-change: box-shadow;
+            transition: box-shadow 0.25s cubic-bezier(0.06, 0.13, 0.18, 0.99), background-color 0.25s cubic-bezier(0.06, 0.13, 0.18, 0.99), color 0.25s cubic-bezier(0.06, 0.13, 0.18, 0.99);
+            outline: none;
+            text-decoration: none;
+            vertical-align: middle;
+            text-align: center;
+            justify-content: center;
+}
+        .you-can-shape-container{
+
+        	background-color:pink;
+        	background-image: url("exact.jpg");    	  
+            background-size: cover;
+			height: 550px;
+			width: 1390px;
+
+        }
+        .you-can-shape-text{
+        	margin-top: 320px;
+        	margin-bottom: 20px;
+        	color: white;
+        	font-weight: 800;
+        	font-size: 36px;
+        	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        	margin-left: 250px;
+        	
+        }
+        .welcome-smart-pane{
+        	font-size: 18px;
+            line-height: 26px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            color: white;
+            font-weight: bold;
+            margin-left: 250px;
+        
+        }
+        .signup-button
+        {   margin-top: 20px;
+        	margin-left: 250px;
+            background-image: linear-gradient(to right, #00CDCB, #12D7C1);
+            color: #ffffff;
+            box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+            font-size: 18px;
+            border-radius: 20px;
+            min-height: 40px;
+            min-width: 60px;
+            padding: 8px 24px;
+            line-height: 22px;
+            border: 1px solid transparent;
+            position: relative;
+            display: inline-flex;
+            will-change: box-shadow;
+            transition: box-shadow 0.25s cubic-bezier(0.06, 0.13, 0.18, 0.99), background-color 0.25s cubic-bezier(0.06, 0.13, 0.18, 0.99), color 0.25s cubic-bezier(0.06, 0.13, 0.18, 0.99);
+            outline: none;
+            text-decoration: none;
+            vertical-align: middle;
+            text-align: center;
+            justify-content: center;
+
+}
+        .why-join-container{
+        	background-color: white;
+        	height: 120px;
+			width: 1390px;
+        }
+        .why-join-text{
+        	font-weight: 700;
+        	font-size: 36px;
+        	text-align: center;
+        	margin-top: 20px;
+        }
+        .why-join-horizontal-line{
+        	content: "";
+    		position: absolute;
+    		margin-top: 50px;
+    		width: 80px;
+    		height: 3px;
+    		left: 50%;
+    		margin-left: -40px;
+    		bottom: -125px;
+    		background-color: #00CDCB;
+            margin-bottom: 450x;
+        }
+        
+         .why-join-content{
+            
+            flex: 1 1 auto;
+           display: flex;
+           flex-direction: column;
+       
+        }
+        .why-join-content-head{
+
+             font-size: 24px;
+             line-height: 29px;
+             font-weight: 500;
+             margin: 12px 0 6px;
+        }
+        .why-join-content-body{  
+            color: #383838;
+           font-size: 15px;
+        }
+          .why-join-signup-button
+         {  
+            background-image: linear-gradient(to right, #00CDCB, #12D7C1);
+            color: #ffffff;
+            box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+            font-size: 18px;
+            border-radius: 20px;
+            min-height: 40px;
+            min-width: 60px;
+            padding: 8px 24px;
+            line-height: 22px;
+            border: 1px solid transparent;
+            position: relative;
+            display: inline-flex;
+            will-change: box-shadow;
+            transition: box-shadow 0.25s cubic-bezier(0.06, 0.13, 0.18, 0.99), background-color 0.25s cubic-bezier(0.06, 0.13, 0.18, 0.99), color 0.25s cubic-bezier(0.06, 0.13, 0.18, 0.99);
+            outline: none;
+            text-decoration: none;
+            vertical-align: middle;
+            text-align: center;
+            justify-content: center;
+            margin-top:40px;
+            margin-left: 610px;
+          }
+     .what-we-say-container{
+            background-color:#F5F3F3;
+            height: 120px;
+            width: 1390px;
+        }
+    .what-we-say-text{
+            font-weight: 700;
+            font-size: 36px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .what-we-say-horizontal-line{
+            content: "";
+            position: absolute;
+            margin-top: 200px;
+            width: 80px;
+            height: 3px;
+            left: 50%;
+            margin-left: -40px;
+            bottom: 200px;
+            background-color: #00CDCB;
+            margin-bottom: -755px;
+        }
+        .picture-container{
+            background-color:#F5F3F3;
+            height: 300px;
+            width: 1390px;
+            padding-left: 240px;
+        }
+
+          .read-more-testimorials--button
+         {  
+            background-image: linear-gradient(to right, #00CDCB, #12D7C1);
+            color: #ffffff;
+            box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+            font-size: 18px;
+            border-radius: 20px;
+            min-height: 40px;
+            min-width: 60px;
+            padding: 8px 24px;
+            line-height: 22px;
+            border: 1px solid transparent;
+            position: relative;
+            display: inline-flex;
+            will-change: box-shadow;
+            transition: box-shadow 0.25s cubic-bezier(0.06, 0.13, 0.18, 0.99), background-color 0.25s cubic-bezier(0.06, 0.13, 0.18, 0.99), color 0.25s cubic-bezier(0.06, 0.13, 0.18, 0.99);
+            outline: none;
+            text-decoration: none;
+            vertical-align: middle;
+            text-align: center;
+            justify-content: center;
+            margin-top:40px;
+            margin-left: 580px;
+          }
+          .testimonal{
+            background-color: #F5F3F3;
+          }
+          .testimonal-description{
+                font-size: 18px;
+                line-height: 26px;
+                margin-left: 180px;
+                 }
+          .read-more-button-container{
+            background-color:#F5F3F3;
+            height: 120px;
+            width: 1390px;
+          }
+          .how-work-image{
+            margin-left: 240px;
+          }
+        .footer{
+            background-color: gray;
+            height: 200px;
+        }
+        .footer-about{
+            font-weight: bold;
+            margin-top: 53px;
+            font-size: 18px;
+            margin-left: 20px;
+            color: white;
+
+        }
+        .footer-about:hover{
+            
+            color: #00CDCB;
+        }
+        .footer-FAQ{
+            color: white;
+            font-weight: bold;
+            margin-top: 53px;
+            font-size: 18px;
+            margin-left: -45px;
+        
+
+        }
+        .footer-FAQ:hover{
+            
+            color: #00CDCB;
+        }
+        .footer-text{
+            color:#bbbbbb;
+            margin-top: 50px;
+        }
+        .fa-facebook{
+    background: gray;
+    color: white;
+    font-size: 20px;
+  padding: 0.05em 0.3em;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-left: 190px;
+    }
+       .fa-twitter{
+    background: gray;
+    color: white;
+    font-size: 20px;
+  padding: 0.17em 0.17em;
+  border: 2px solid white;
+  border-radius: 20px;
+    }
+     .fa-facebook:hover{
+            
+            color: #00CDCB;
+        }
+         .fa-twitter:hover{
+            
+            color: #00CDCB;
+        }
